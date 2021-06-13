@@ -1,0 +1,198 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.backimg
+{
+  min-height: 60vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(eduford_img/banner.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.backimg h1
+{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  top: 150px;
+}
+
+.container
+{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 50px;
+}
+
+.logo
+{
+  position: relative;
+  left: 80px;
+}
+
+.menu ul li
+{
+  display: inline;
+  position: relative;
+  right: 60px;
+}
+
+.menu ul li a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  padding-right: 20px;
+}
+
+.menu ul li a:hover
+{
+  transition: 1s;
+  color: #f44336;
+}
+
+.aboutus
+{
+  text-align: center;
+  margin: 80px 0px 50px 0px;
+}
+
+.aboutus h1
+{
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.abouticons
+{
+  color: #D2691E;
+  position: relative;
+  margin-bottom: 100px;
+  top: 20px;
+  padding-bottom: 70px;
+
+}
+
+.abouticons i
+{
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+  left: 590px;
+}
+
+.map
+{
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+.address
+{
+  display: flex;
+}
+
+.phone
+{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mail
+{
+  display: flex;
+}
+
+.contact-info
+{
+  position: relative;
+  left: 150px;
+  top: 15px;
+}
+
+.contact-icon
+{
+  color: #D2691E;
+  margin-right: 25px;
+  position: relative;
+  top: 12px;
+
+}
+
+.contact-info p
+{
+  color: grey;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.contact-info h4
+{
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.container2
+{
+  display: flex;
+  position: relative;
+  top: 80px;
+}
+
+.inps
+{
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  outline-color: lightblue;
+  border: none;
+  border: 1px solid grey;
+}
+
+.message
+{
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  padding-bottom: 150px;
+  outline-color: lightblue;
+}
+
+.inputs-info
+{
+  position: relative;
+  left: 400px;
+}
+
+.butmessage
+{
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.butmessage:hover
+{
+  transition: 0.7s;
+  background-color: lightblue;
+}
+
+.ab
+{
+  position: relative;
+  top: 100px;
+}
